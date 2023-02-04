@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/css/cadastro_categoria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<script src="resources/js/chart.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header-right-icons">
+                <span class="material-symbols-outlined">
+                    notifications
+                </span>
+                <span class="material-symbols-outlined">
+                    email
+                </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+              </div>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <span class="material-symbols-outlined icone_logo">
+                cyclone
+            </span>
+            <span class="titulo_logo">Ciclone Gestão</span>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined">
+                        empty_dashboard
+                    </span>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        category
+                    </span>
+                    <a href="#">Categorias</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        inventory_2
+                    </span>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        groups
+                    </span>
+                    <a href="#">Clientes</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        Inventory
+                    </span>
+                    <a href="#">Estoque</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        lab_profile
+                    </span>
+                    <a href="#">Relatórios</a>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        Settings
+                    </span>
+                    <a href="#">Configurações</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <div class="main_container">
+            <h1>CADASTRO DE CATEGORIAS</h1>
+            <div class="lista_produtos_link">
+                <span><a href="lista_produto.html">Listar Categorias</a></span>
+            </div>
+            <div class="form_container">
+                    <div class="form_group">
+                        <div class="codigo_descricao">
+                            <label for="codigo">Código:</label>
+                            <input type="text" name="codigo">
+                        </div>
+                        <div class="nome_descricao">
+                            <label for="descricao">Nome:</label>
+                            <input type="text" name="descricao">
+                        </div>
+                    </div>
+                    <div class="form_group">
+                        <div class="infos-adicionais">
+                            <label for="infos_adicionais">Informações adicionais</label>
+                            <textarea name="infos_adicionais" rows="10">
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="form_group">
+                        <div class="btns_cadastro">
+                            <button>Cadastrar</button>
+                            <button class="btn_reset">Limpar</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     </main>
+</body>
+
+</html>

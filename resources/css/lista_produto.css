@@ -1,0 +1,96 @@
+.main_container{
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.lista_produtos_link {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.lista_produtos_link span {
+    margin-right: 15px;
+}
+
+.lista_produtos_link span a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #01A8E3;
+    border-radius: 6px;
+    color: #fff;
+    transition: .3s;
+}
+
+.lista_produtos_link span a:hover{
+    background-color: #036f96;
+}
+
+.lista_produtos {
+    margin-top: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 16px 5px rgba(0,0,0,0.34); 
+    box-shadow: 0px 1px 16px 5px rgba(0,0,0,0.34);
+    border-radius: 6px;
+}
+
+table {
+    width: 98%;
+}
+    
+table {
+    border-collapse: collapse;
+    margin: auto;
+    border: none;
+}
+
+td a {
+    text-decoration: none;
+    color: #333;
+}
+
+td a:hover{
+    color: #fff;
+}
+    
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #263043;
+}
+       
+th{
+    font-weight: bold;
+    background-color: #4d6185;
+    color: #fff;
+}
+       
+tr:nth-child(even) {
+    background-color: #DCEBE6;
+}
+    
+tr:hover:nth-child(1n + 2) {
+    background-color: #4d6185;
+    color: #fff;
+    transition: .3s;
+}
+tr:hover:nth-child(1) {
+    background-color: #4d6185;
+    color: #fff;
+    transition: .3s;
+}
+
+.dataTables_length {
+    margin-bottom: 10px;
+}
+
+.tabela_icone_edit {
+    color: #FF6D00;
+}
+
+.tabela_icone_delete {
+    color: #D50000;
+}
